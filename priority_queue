@@ -1,0 +1,12 @@
+#include <iostream>
+#include <queue>
+using namespace std;
+int main(){
+    priority_queue<int>pq;
+    pq.push(30); //inserting the elements
+    pq.push(40);
+    pq.push(98);
+  //accessing the elements in priority queue
+cout<<pq.top();
+
+}
